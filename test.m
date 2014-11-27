@@ -1,6 +1,5 @@
-#test = (new Map);
+var #greet (name) {
+    print (("Hello " + name) + "!")
+};
 
-test put #test 12;
-
-print (test get #test);
-
+greet "Emiel";
